@@ -10,4 +10,3 @@ subtitle: |
 ---
 
 {{< include _syllabus_body.qmd >}}
-
