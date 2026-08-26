@@ -1,7 +1,5 @@
 ## Course details
 
-|                        |                                                                    |
-|------------------------|--------------------------------------------------------------------|
 | **Class time/location** | Tuesdays 9:10 a.m. – 12:00 p.m., 410 Milbank                       |
 | **Instructor**          | Annie Vu, Ph.D. (she/her/hers)                                     |
 | **Email**               | [avu@barnard.edu](mailto:avu@barnard.edu)                          |
@@ -10,7 +8,7 @@
 | **Co-requisite**        | PSYC BC2125 Personality Psychology                                 |
 
 ::: {.callout-tip appearance="simple"}
-Please include "PSYC 2124" in the subject line of any email. Happy hours can be
+Please include "PSYC 2124" in the subject line of any email. Office hours can be
 in person or on Zoom by appointment — request via email or in person.
 :::
 
@@ -134,23 +132,23 @@ Final grades are determined according to the following boundaries:
 | Date | Session focus | Due |
 |------|---------------|-----|
 | Tue, 9/8 | Course overview | |
-| | ***Project 1: $t$-test*** | |
+| ***Project 1: $t$-test***|  | |
 | Tue, 9/15 | Project planning | |
 | Tue, 9/22 | Data cleaning | |
 | Tue, 9/29 | Analysis | |
 | Tue, 10/6 | **Project 1 presentations** (in class) | |
-| | ***Project 2: Correlation*** | |
-| Tue, 10/13 | Project planning | Project 1 report due |
+| ***Project 2: Correlation*** | | |
+| Tue, 10/13 | Project planning | **Project 1 report due** |
 | Tue, 10/20 | Data cleaning & analysis | |
 | Tue, 10/27 | Visualization & reporting | |
 | Tue, 11/3 | *No class — Election Day, College closed* | |
 | Tue, 11/10 | **Project 2 presentations** (in class) | |
-| | ***Project 3: Regression*** | |
-| Tue, 11/17 | Project planning | Project 2 report due |
+|***Project 3: Regression*** |  | |
+| Tue, 11/17 | Project planning | **Project 2 report due** |
 | Tue, 11/24 | Data cleaning & analysis | |
 | Tue, 12/1 | Visualization & reporting | |
 | Tue, 12/8 | **Project 3 presentations** (in class) | |
-| Tue, 12/15 | *No class — reading period* | Project 3 report due |
+| Tue, 12/15 | *No class — reading period* | **Project 3 report due** |
 
 ::: {.callout-note appearance="simple"}
 The course syllabus, schedule, and readings are subject to revision. I will
@@ -238,39 +236,3 @@ others. Please be considerate and clean up after yourself.
   shared by classmates during discussions.
 - **Professionalism.** Maintain professionalism in communications with the
   instructor and fellow classmates, including emails.
-
-## Frequently asked questions
-
-### Dr. Vu, who are you?
-
-That is a loaded question that I have spent my whole life trying to figure out.
-Professionally, I am a social psychologist whose research sits at the
-intersection of personal and societal wellbeing. Personally, I was born and
-raised in Hanoi, Vietnam, and came to the United States to pursue higher
-education more than a decade ago. Beyond teaching and conducting research, I
-love to travel to learn and experience different cultures and ways of living.
-In my early twenties, I used to backpack across Southeast Asia and Europe.
-
-### Will my perspectives matter in the course?
-
-Throughout the course, I want to empower you to construct your own intellectual
-perspectives through scientific research and evidence-based reasoning, rather
-than passively adopting existing perspectives or mine. In my classroom, you are
-encouraged to question established perspectives, investigate competing
-viewpoints, explore alternative explanations, analyze their strengths and
-flaws, evaluate their impacts, take into consideration the historical and
-contemporary contexts, and review evidence from reliable sources — including
-peer-reviewed journal articles — before coming to a conclusion. I want you to
-become a self-sufficient and independent thinker, capable of analyzing
-different viewpoints and evaluating evidence to formulate nuanced perspectives
-on global issues.
-
-### What are some of the course expectations?
-
-You are required to read the assigned materials before class so you can
-productively engage in class discussions and activities with some foundational
-knowledge. Active attendance and participation in class discussions and
-activities are also expected. You must be respectful to everybody in the class
-at all times, even — and especially — when you disagree with each other. All
-class discussions and debates must be civil, considerate, and free of hate
-speech and discriminatory language.
