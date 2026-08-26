@@ -1,11 +1,11 @@
 ## Course details
 
-**Class time/location**: Tuesdays 9:10 a.m. – 12:00 p.m., 410 Milbank                       |
-**Instructor**: Annie Vu, Ph.D. (she/her/hers)                                     |
-**Email**:[avu@barnard.edu](mailto:avu@barnard.edu)                          |
-**Office hours** M/W 1:00–2:00 p.m.; T 1:00–3:00 p.m.                               |
-**Prerequisites** PSYC BC1001 Introduction to Psychology; PSYC BC1101 Statistics; PSYC BC1020 Research Methods |
-**Co-requisite** PSYC BC2125 Personality Psychology                                 |
+**Class time/location**: Tuesdays 9:10 a.m. – 12:00 p.m., 410 Milbank               
+**Instructor**: Annie Vu, Ph.D. (she/her/hers)                                   
+**Email**:[avu@barnard.edu](mailto:avu@barnard.edu)                          
+**Office hours** M/W 1:00–2:00 p.m.; T 1:00–3:00 p.m.                               
+**Prerequisites** PSYC BC1001 Introduction to Psychology; PSYC BC1101 Statistics; PSYC BC1020 Research Methods 
+**Co-requisite** PSYC BC2125 Personality Psychology                                 
 
 ::: {.callout-tip appearance="simple"}
 Please include "PSYC 2124" in the subject line of any email. Office hours can be
