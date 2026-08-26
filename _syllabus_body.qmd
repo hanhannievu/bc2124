@@ -1,11 +1,11 @@
 ## Course details
 
-| **Class time/location** | Tuesdays 9:10 a.m. – 12:00 p.m., 410 Milbank                       |
-| **Instructor**          | Annie Vu, Ph.D. (she/her/hers)                                     |
-| **Email**               | [avu@barnard.edu](mailto:avu@barnard.edu)                          |
-| **Office hours**        | M/W 1:00–2:00 p.m.; T 1:00–3:00 p.m.                               |
-| **Prerequisites**       | PSYC BC1001 Introduction to Psychology; PSYC BC1101 Statistics; PSYC BC1020 Research Methods |
-| **Co-requisite**        | PSYC BC2125 Personality Psychology                                 |
+**Class time/location**: Tuesdays 9:10 a.m. – 12:00 p.m., 410 Milbank                       |
+**Instructor**: Annie Vu, Ph.D. (she/her/hers)                                     |
+**Email**:[avu@barnard.edu](mailto:avu@barnard.edu)                          |
+**Office hours** M/W 1:00–2:00 p.m.; T 1:00–3:00 p.m.                               |
+**Prerequisites** PSYC BC1001 Introduction to Psychology; PSYC BC1101 Statistics; PSYC BC1020 Research Methods |
+**Co-requisite** PSYC BC2125 Personality Psychology                                 |
 
 ::: {.callout-tip appearance="simple"}
 Please include "PSYC 2124" in the subject line of any email. Office hours can be
@@ -30,9 +30,9 @@ a brief individual write-up.
 
 Through these projects, you will gain experience in:
 
-- Formulating psychological research questions relating to personality
-- Analyzing and visualizing data
-- Interpreting and communicating your findings
+- Formulating psychological research questions relating to personality,
+- Analyzing and visualizing data, and
+- Interpreting and communicating your findings.
 
 ### Course format
 
@@ -150,10 +150,6 @@ Final grades are determined according to the following boundaries:
 | Tue, 12/8 | **Project 3 presentations** (in class) | |
 | Tue, 12/15 | *No class — reading period* | **Project 3 report due** |
 
-::: {.callout-note appearance="simple"}
-The course syllabus, schedule, and readings are subject to revision. I will
-communicate any and all changes as quickly as possible via email and in class.
-:::
 
 ## Course policies
 
