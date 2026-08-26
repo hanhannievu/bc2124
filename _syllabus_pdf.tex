@@ -1,0 +1,430 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabularx}
+\usepackage{xltabular}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+% fallback for those not using the hyperref driver hyperxmp:
+\makeatletter
+\@ifundefined{xmpquote}{\newcommand{\xmpquote}[1]{#1}}{}
+\makeatother
+\hypersetup{
+  pdftitle={PERSONALITY PSYCHOLOGY LAB},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{PERSONALITY PSYCHOLOGY LAB}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{PSYC BC2124\\
+Barnard College\\
+Department of Psychology\\
+Fall 2026}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+
+
+\textbf{Pre-requisites}: PSYC BC1001 Introduction to Psychology; PSYC
+BC1101 Statistics; PSYC BC1020 Research Methods\\
+\textbf{Co-requisite}: PSYC BC2125 Personality Psychology
+
+\subsubsection{Time, venue \& instructor}\label{time-venue-instructor}
+
+Tuesday 9:10AM-12:00PM, Milbank 410
+
+Instructor: Dr.~Annie Vu
+(\href{mailto:avu@barnard.edu}{\nolinkurl{avu@barnard.edu}})\\
+Office hour: MW: 1:00pm-2:00pm; T: 1:00pm-3:00pm. I am happy to meet in person or on Zoom by appointment (request via email or in person).
+
+
+
+\subsubsection{Overview}\label{overview}
+
+This lab will usually be taken concurrently with BC2125 Personality
+lecture. It will expand upon some of the theoretical, methodological and
+analytic issues introduced there, as well as giving you the opportunity
+to explore topics from within and beyond those covered in the lectures
+in greater depth through hands-on experience with research design and
+data analysis.
+
+The semester is broken into 3 projects, each illustrating a common
+methodological and analytic approach in personality psychology. Through
+these projects you will gain experience in formulating psychological
+research questions relating to personality; analyzing and visualizing
+data; and interpreting and communicating your findings. Projects will be
+undertaken in small groups; group members will collaborate on design and
+analysis. Each project will culminate in an in-class group presentation
+and submission of a brief individual write up of your project.
+
+\subsubsection{Schedule and deadlines}\label{schedule-and-deadlines}
+
+\begin{xltabular}{\linewidth}{>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
+\toprule
+Date & Topic\\
+\midrule
+9/8 & Course overview\\
+\addlinespace[0.3em]
+\multicolumn{2}{l}{\textbf{Project 1: t-test}}\\
+9/15 & Project planning\\
+9/22 & Data cleaning\\
+9/29 & Analysis\\
+10/6 & Presentations\\
+\addlinespace[0.3em]
+\multicolumn{2}{l}{\textbf{Project 2: Correlation}}\\
+10/13 & Project planning\\
+10/20 & Data cleaning \& analysis\\
+10/27 & Visualization \& reporting\\
+\textcolor[HTML]{BBBBBB}{\em{11/4}} & \textcolor[HTML]{BBBBBB}{\em{No class (academic holiday)}}\\
+11/10 & Presentations\\
+\addlinespace[0.3em]
+\multicolumn{2}{l}{\textbf{Project 3: Regression}}\\
+11/17 & Project planning\\
+11/24 & Data cleaning \& analysis\\
+12/1 & Visualization \& reporting\\
+12/8 & Presentations\\
+\bottomrule
+\end{xltabular}
+
+Written project reports are due one week following the in-class
+presentation (before the next week's lab session) on the following
+dates.
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+& Due Date \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Project 1 report & 10/13 \\
+Project 2 report & 11/17 \\
+Project 3 report & 12/15 \\
+\end{longtable}
+}
+
+\subsubsection{Class format \&
+participation}\label{class-format-participation}
+
+Labs are substantially more interactive and discussion-based than the
+traditional lecture format, and depend on everyone's active
+participation in class discussions and activity as well as group work
+focused around the projects. Your active participation across the
+semester will therefore contribute a substantial portion of your grade.
+
+If you have questions, thoughts, or ideas you want to share, feel free
+to do so at any time (while keeping within the bounds of polite
+conversation, obviously--don't interrupt or talk over other people! But
+do feel free to respond to others without having to raise your hand or
+wait to be called on). Everyone will get the most out of this lab when
+the discussion can develop organically and everyone feels free to be
+part of the conversation if \& when they have something to add.
+
+Being part of the in-person discussion is one obvious way to
+participate, but it's not the only way. Different people have different
+styles of participation, and the lab is designed to try and accommodate
+and encourage different approaches. Your level of engagement with your
+project partner(s), your TA and Prof.~Brotherton as you work through
+your projects is also an important form of participation. You can also
+participate by coming to office hours.
+
+At a minimum (i.e.~for a passing grade), I'll be looking for some form
+of participation (loosely defined) from you every week. Higher
+participation grades will be earned through regular, enthusiastic,
+productive participation (note that quality is more important than
+quantity).
+
+\subsubsection{Workload}\label{workload}
+
+As a general rule for the amount of time students should expect to
+commit to classes, the college suggests three hours per week in or
+outside of class per credit. Since this class is worth 2.5 credits, that
+corresponds to 7.5 hours per week, split between time in the classroom
+and time spent completing the associated assignments.
+
+\subsubsection{Final Grades}\label{final-grades}
+
+Your numeric score for the course is a product of your scores for each
+assignment, weighted as follows:
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}lr@{}}
+\toprule\noalign{}
+& Weight (\%) \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Participation (over the course of the semester) & 10 \\
+Presentations & 30 \\
+Reports & 60 \\
+\end{longtable}
+}
+
+Final grades are determined according to the following boundaries:
+
+\begin{verbatim}
+Letter grade:  A+ A  A- B+ B  B- C+ C  C- D  F
+Numeric score: 97 93 90 87 83 80 77 73 70 60 <60
+\end{verbatim}
+
+\subsection{Course policies}\label{course-policies}
+
+\subsubsection{Attendance \& timeliness}\label{attendance-timeliness}
+
+In-person attendance of every lab session is expected, and you should
+expect to stay for the full duration of the lab. Normally it is
+departmental policy to remove students who miss more than two lab
+sessions from the course; however, given ongoing revisions to
+college-wide health-related policies, exceptions may be made. If you are
+feeling unwell, you should not come to class and notify me of
+nonattendance before class if possible.
+
+When you are attending, please arrive on time for class. Frequent
+lateness will impact your participation grade.
+
+\subsubsection{Assignment late policy}\label{sec-late-policy}
+
+Presentations will be given in-class on the dates listed in the class
+schedule. It is expected that all group members contribute equally to
+the presentation preparation and delivery. Therefore, all group members
+will receive the same group score, except in exceptional circumstances
+when it is clear that contributions were not equal. If a group member is
+unable to present in-person on the day of the presentation due to
+unforeseen circumstances, please notify Prof.~Brotherton. The
+presentation will be given by the remaining group members, and the
+absent member may be assigned the group score, assuming equal
+contributions to the preparation of the presentation.
+
+Written project reports are due one week following the in-class
+presentation, i.e.~before the next week's lab session--see dates below.
+A grade penalty of 5 points will be applied for each day (or part
+thereof) that an assignment is late (up to a maximum of 6 days; work not
+submitted before the next lab will receive a score of zero). For
+example, if your work is A+ quality but is submitted a day-and-a-half
+late, you will only receive a B+. This policy is intended to incentivize
+timely submission while easing the stress of genuine emergencies. When
+things come up that prevent timely submission you can prioritize
+accordingly, knowing that a small penalty on one assignment for this lab
+will not tank your final grade.
+
+\subsubsection{Academic integrity}\label{academic-integrity}
+
+Students are expected to follow the Barnard Honor Code, available at
+\url{https://barnard.edu/honor-code}.
+
+Note that while you will collaborate with group members on the design,
+analysis, and presentation of research projects, you may not collaborate
+on the written report: each group member must write their own individual
+reports.
+
+\subsubsection{Use of generative AI
+(e.g.~ChatGPT)}\label{use-of-generative-ai-e.g.-chatgpt}
+
+Generative AI is an extremely useful tool for many purposes; real
+researchers are of course using it to help with their research. For this
+class, you are welcome to use AI tools to help with idea generation,
+help you understand readings, help formulate your ideas for written
+reports, etc. However, note the emphasis on \emph{helping} rather than
+doing things for you. Passing someone else's work off as your own is
+plagiarism and a violation of the honor code, and that includes the work
+of AI assistants. AI tools can enhance, but should not substitute for,
+your own efforts. Please be aware that it is generally obvious when
+someone has put little thought of their own into their work. Relying on
+ChatGPT (or similar) to do most of the work for you will result in bad
+work (and will accordingly earn you a bad grade).
+
+\subsubsection{Academic accommodations and general
+wellness}\label{academic-accommodations-and-general-wellness}
+
+It is always important to recognize the different pressures, burdens,
+and stressors you may be facing, whether personal, emotional, physical,
+financial, mental, or academic. The faculty and administration recognize
+this, and are prepared to provide assistance to students in need. I
+encourage you to seek advice from your advisor, Dean, the
+\href{https://barnard.edu/disability-services}{Center for Accessibility
+Resources \& Disability Services (CARDS)}, or
+\href{https://barnard.edu/health-wellness}{Barnard Health \& Wellness}
+as needed. Please let me know of any issues you wish to share with me
+that you feel are impacting your ability to complete the course to the
+best of your ability. Though it isn't always easy, it is better to
+proactively seek help rather than letting problems build up.
+
+
+
+
+\end{document}

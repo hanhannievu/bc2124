@@ -1,3 +1,6 @@
+::: {.callout-note appearance="simple"}
+Lab materials adapted with permission from Rob Brotherton's BC2124 handbook.
+:::
 ---
 title: Syllabus
 number-sections: false
@@ -7,8 +10,6 @@ number-sections: false
 > 
 > -- <cite>Daniel Nettle; [Personality: What Makes You the Way You Are](http://www.columbia.edu/cgi-bin/cul/resolve?clio14146523)</cite>
 
-
-## Course details
 
 {{< include _syllabus_body.qmd >}}
 
