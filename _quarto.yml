@@ -1,6 +1,6 @@
 project:
   type: book
-  output-dir: docs
+  output-dir: _book
   resources: syllabus.pdf
   pre-render: _render_syllabus.r
 
@@ -20,8 +20,8 @@ book:
     | Barnard College
     | Department of Psychology
     | PSYC BC2124
-  date: "1/31/2023"
-  date-format: "[Fall 2024]"
+  date: "26/08/2026"
+  date-format: "[Fall 2026]"
   output-file: Personality-Psychology-Lab-Handbook
 
   chapters:
