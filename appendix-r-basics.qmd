@@ -12,14 +12,51 @@
 
 ## posit.cloud
 
-You will use posit.cloud to write R code and work with data in RStudio. To use it you'll just need to [sign up for a free account](https://login.posit.cloud/register).
+You will use posit.cloud to write R code and work with data in RStudio, right in your web browser. There is nothing to install on your own computer.
 
+Setting up takes about five minutes, and you only need to do it once.
 
-### Let's do something cool
+### Step 1: Create a free account
 
-Once you have a posit.cloud account, [click this link](https://posit.cloud/content/12791043).
+Go to [posit.cloud](https://login.posit.cloud/register) and sign up. The free plan is all you need for this course.
 
-Once the project is up and running, click on `anes.R` in the bottom-right pane to open some analysis code.
+### Step 2: Open the course project
+
+Once you are logged in, [click here to open the BC2124 lab project](https://posit.cloud/content/12791043).
+
+This project already has everything you need: the R packages we use, and the datasets for all three projects. You will not need to install anything or download any data.
+
+### Step 3: Make your own copy
+
+At the top of the project you will see a button labelled **Make a Permanent Copy**. Click it.
+
+This creates your own private copy of the project in your account. Everything is copied across, so your version starts out identical to mine.
+
+::: {.callout-important}
+## Bookmark your copy
+
+After you make your copy, **bookmark it** or find it under "Your Content" in posit.cloud.
+
+From now on, always return to *your copy* — not the link above. The link above always opens my original, which you cannot edit. If you click it again next week and start working, your previous work will not be there, and you may end up with several empty copies.
+:::
+
+### Step 4: Check that it worked
+
+Open your copy. In the **Console** pane (bottom left, showing a `>` prompt), type the following and press Enter:
+
+```r
+library(tidyverse)
+```
+
+You should see a short message listing packages like dplyr and ggplot2. If instead you see an error saying there is no package called 'tidyverse', let me know.
+
+Then check that the data is there:
+
+```r
+list.files("data")
+```
+
+You should see the data files listed.
 
 
 ### Wait, what are you talking about?
