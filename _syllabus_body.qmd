@@ -135,19 +135,19 @@ Final grades are determined according to the following boundaries:
 | Tue, 9/8 | Course overview | |
 | ***Project 1: $t$-test***|  | |
 | Tue, 9/15 | Project planning | |
-| Tue, 9/22 | Data cleaning | |
+| Tue, 9/22 | Data preparation | |
 | Tue, 9/29 | Analysis | |
 | Tue, 10/6 | **Project 1 presentations** (in class) | |
 | ***Project 2: Correlation*** | | |
 | Tue, 10/13 | Project planning | **Project 1 report due** |
-| Tue, 10/20 | Data cleaning & analysis | |
-| Tue, 10/27 | Visualization & reporting | |
+| Tue, 10/20 | Data preparation | |
+| Tue, 10/27 | Analysis | |
 | Tue, 11/3 | *No class — Election Day, College closed* | |
 | Tue, 11/10 | **Project 2 presentations** (in class) | |
 |***Project 3: Regression*** |  | |
 | Tue, 11/17 | Project planning | **Project 2 report due** |
-| Tue, 11/24 | Data cleaning & analysis | |
-| Tue, 12/1 | Visualization & reporting | |
+| Tue, 11/24 | Data preparation | |
+| Tue, 12/1 | Analysis | |
 | Tue, 12/8 | **Project 3 presentations** (in class) | |
 | Tue, 12/15 | *No class — reading period* | **Project 3 report due** |
 
