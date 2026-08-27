@@ -125,7 +125,7 @@ We have our two extraversion items (one reverse-coded), the feeling thermometer 
 
 ## To do for next time
 
-Read another research paper from [Lab @sec-politics-references].
+Read another research paper from the [references](correlation_1_anes.qmd#sec-politics-references).
 
 [^tidyverse-note]: The `select()` function, along with `filter()`, `mutate()`, `across()`, `everything()`, and others that you'll see in my example code, is part of the `tidyverse` family of packages (specifically these all come from the `dplyr` package, but we'll also use functions from other `tidyverse` packages like `tidyr` and `ggplot2`). There are other ways to do all these things without using `tidyverse` packages, just relying on what's referred to as "base" R functions. The `tidyverse` approach just makes this kind of data manipulation generally easier and makes the code more interpretable. If you're curious to see how base R and tidyverse functions differ in syntax, a good place to start is <https://dplyr.tidyverse.org/articles/base.html>.
 

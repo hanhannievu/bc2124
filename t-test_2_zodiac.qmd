@@ -154,4 +154,4 @@ After filtering to keep only rows with complete data, we're left with `r format(
 
 ## To do for next time
 
-Read and take notes on another of the research papers listed under [Lab @sec-astro-refs]
+Read and take notes on another of the research papers listed under the [references](t-test_1_zodiac.qmd#sec-astro-refs).
