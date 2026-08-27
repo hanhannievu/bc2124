@@ -10,7 +10,7 @@ Groups should have decided on what variables to use. By the end of this session 
 
 ### Data wrangling tips
 
-Since everyone will be doing different things, Professor Brotherton work with groups individually to provide guidance on data preparation and analysis where help is needed. However, here are some hints about how to achieve common tasks.
+Since everyone will be doing different things, Dr. Vu work with groups individually to provide guidance on data preparation and analysis where help is needed. However, here are some hints about how to achieve common tasks.
 
 #### Compute an average of several variables.
 

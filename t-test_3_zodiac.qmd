@@ -193,4 +193,4 @@ summary |>
 
 ## To do for next time
 
-Prepare your presentation! Share your google slides with Prof. Brotherton in advance. See guidelines under [next week's lab section](t-test_4_zodiac.qmd).
+Prepare your presentation! Share your google slides with Dr. Vu in advance. See guidelines under [next week's lab section](t-test_4_zodiac.qmd).
