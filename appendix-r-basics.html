@@ -364,7 +364,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./t-test_1_zodiac.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Project Planning</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Project planning</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -399,7 +399,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./correlation_1_anes.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Project Planning</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Project planning</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -510,7 +510,10 @@ window.Quarto = {
   <ul>
   <li><a href="#posit.cloud" id="toc-posit.cloud" class="nav-link active" data-scroll-target="#posit.cloud">posit.cloud</a>
   <ul class="collapse">
-  <li><a href="#lets-do-something-cool" id="toc-lets-do-something-cool" class="nav-link" data-scroll-target="#lets-do-something-cool">Let’s do something cool</a></li>
+  <li><a href="#step-1-create-a-free-account" id="toc-step-1-create-a-free-account" class="nav-link" data-scroll-target="#step-1-create-a-free-account">Step 1: Create a free account</a></li>
+  <li><a href="#step-2-open-the-course-project" id="toc-step-2-open-the-course-project" class="nav-link" data-scroll-target="#step-2-open-the-course-project">Step 2: Open the course project</a></li>
+  <li><a href="#step-3-make-your-own-copy" id="toc-step-3-make-your-own-copy" class="nav-link" data-scroll-target="#step-3-make-your-own-copy">Step 3: Make your own copy</a></li>
+  <li><a href="#step-4-check-that-it-worked" id="toc-step-4-check-that-it-worked" class="nav-link" data-scroll-target="#step-4-check-that-it-worked">Step 4: Check that it worked</a></li>
   <li><a href="#wait-what-are-you-talking-about" id="toc-wait-what-are-you-talking-about" class="nav-link" data-scroll-target="#wait-what-are-you-talking-about">Wait, what are you talking about?</a></li>
   </ul></li>
   <li><a href="#fundamentals-of-r-for-data-analysis" id="toc-fundamentals-of-r-for-data-analysis" class="nav-link" data-scroll-target="#fundamentals-of-r-for-data-analysis">Fundamentals of R for data analysis</a>
@@ -556,11 +559,44 @@ window.Quarto = {
 </style>
 <section id="posit.cloud" class="level2">
 <h2 class="anchored" data-anchor-id="posit.cloud">posit.cloud</h2>
-<p>You will use posit.cloud to write R code and work with data in RStudio. To use it you’ll just need to <a href="https://login.posit.cloud/register">sign up for a free account</a>.</p>
-<section id="lets-do-something-cool" class="level3">
-<h3 class="anchored" data-anchor-id="lets-do-something-cool">Let’s do something cool</h3>
-<p>Once you have a posit.cloud account, <a href="https://posit.cloud/content/12791043">click this link</a>.</p>
-<p>Once the project is up and running, click on <code>anes.R</code> in the bottom-right pane to open some analysis code.</p>
+<p>You will use posit.cloud to write R code and work with data in RStudio, right in your web browser. There is nothing to install on your own computer.</p>
+<p>Setting up takes about five minutes, and you only need to do it once.</p>
+<section id="step-1-create-a-free-account" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-create-a-free-account">Step 1: Create a free account</h3>
+<p>Go to <a href="https://login.posit.cloud/register">posit.cloud</a> and sign up. The free plan is all you need for this course.</p>
+</section>
+<section id="step-2-open-the-course-project" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-open-the-course-project">Step 2: Open the course project</h3>
+<p>Once you are logged in, <a href="https://posit.cloud/content/12791043">click here to open the BC2124 lab project</a>.</p>
+<p>This project already has everything you need: the R packages we use, and the datasets for all three projects. You will not need to install anything or download any data.</p>
+</section>
+<section id="step-3-make-your-own-copy" class="level3">
+<h3 class="anchored" data-anchor-id="step-3-make-your-own-copy">Step 3: Make your own copy</h3>
+<p>At the top of the project you will see a button labelled <strong>Make a Permanent Copy</strong>. Click it.</p>
+<p>This creates your own private copy of the project in your account. Everything is copied across, so your version starts out identical to mine.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Bookmark your copy
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>After you make your copy, <strong>bookmark it</strong> or find it under “Your Content” in posit.cloud.</p>
+<p>From now on, always return to <em>your copy</em> — not the link above. The link above always opens my original, which you cannot edit. If you click it again next week and start working, your previous work will not be there, and you may end up with several empty copies.</p>
+</div>
+</div>
+</section>
+<section id="step-4-check-that-it-worked" class="level3">
+<h3 class="anchored" data-anchor-id="step-4-check-that-it-worked">Step 4: Check that it worked</h3>
+<p>Open your copy. In the <strong>Console</strong> pane (bottom left, showing a <code>&gt;</code> prompt), type the following and press Enter:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>You should see a short message listing packages like dplyr and ggplot2. If instead you see an error saying there is no package called ‘tidyverse’, let me know.</p>
+<p>Then check that the data is there:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">list.files</span>(<span class="st">"data"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>You should see the data files listed.</p>
 </section>
 <section id="wait-what-are-you-talking-about" class="level3">
 <h3 class="anchored" data-anchor-id="wait-what-are-you-talking-about">Wait, what are you talking about?</h3>
@@ -608,17 +644,17 @@ window.Quarto = {
 <h3 class="anchored" data-anchor-id="assignment">Assignment</h3>
 <p>R has a fancy assignment operator: <code>&lt;-</code>.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> You assign things to a name by typing something like:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>name <span class="ot">&lt;-</span> thing</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>name <span class="ot">&lt;-</span> thing</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>The <code>thing</code> there might be a set of numbers, an entire dataset, or something else. Giving it a name allows to you perform subsequent operations more easily, and choosing appropriate names makes your code easier to understand.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>original_numbers <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>original_numbers</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>original_numbers <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>original_numbers</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code> [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>doubled_numbers <span class="ot">&lt;-</span> original_numbers <span class="sc">*</span> <span class="dv">2</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>doubled_numbers</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>doubled_numbers <span class="ot">&lt;-</span> original_numbers <span class="sc">*</span> <span class="dv">2</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>doubled_numbers</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code> [1]  2  4  6  8 10 12 14 16 18 20</code></pre>
 </div>
@@ -628,39 +664,39 @@ window.Quarto = {
 <h3 class="anchored" data-anchor-id="functions">Functions</h3>
 <p>Almost everything happens inside functions.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(original_numbers)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(original_numbers)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 5.5</code></pre>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(doubled_numbers)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(doubled_numbers)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 11</code></pre>
 </div>
 </div>
 <p>You can also nest functions inside one another.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sqrt</span>(<span class="fu">mean</span>(original_numbers))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sqrt</span>(<span class="fu">mean</span>(original_numbers))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 2.345208</code></pre>
 </div>
 </div>
 <p>A function generally has one or more “arguments”, to which you supply parameters. For example, the <code>mean()</code> function’s first argument is the set of numbers you want to compute the mean of; in the previous examples <code>original_numbers</code> and <code>doubled_numbers</code> were the parameters I supplied. You don’t necessarily have to type the name of the argument, but it can be helpful. The <code>seq()</code> function, for example, produces a sequence of numbers according to three arguments, <code>from</code>, <code>to</code>, and <code>by</code>.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seq</span>(<span class="at">from =</span> <span class="dv">1</span>, <span class="at">to =</span> <span class="dv">10</span>, <span class="at">by =</span> <span class="dv">2</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seq</span>(<span class="at">from =</span> <span class="dv">1</span>, <span class="at">to =</span> <span class="dv">10</span>, <span class="at">by =</span> <span class="dv">2</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1 3 5 7 9</code></pre>
 </div>
 </div>
 <p>When you don’t type the names of the arguments, R matches them by position, so this gives exactly the same output as the previous line of code:</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seq</span>(<span class="dv">1</span>, <span class="dv">10</span>, <span class="dv">2</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">seq</span>(<span class="dv">1</span>, <span class="dv">10</span>, <span class="dv">2</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1 3 5 7 9</code></pre>
 </div>
 </div>
 <p>You can get help with a function (to see what arguments it accepts, for example) by typing a question mark followed by the function name (without parentheses) in your console.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>?mean</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>?mean</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Running the code will bring up the function’s help documentation in RStudio’s Help pane.</p>
 </section>
@@ -668,11 +704,11 @@ window.Quarto = {
 <h3 class="anchored" data-anchor-id="piping">Piping</h3>
 <p>You can string together different operations in a pipeline using the pipe operator: <code>|&gt;</code>.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> The result of each line of code gets “piped” into the function on the next line as its first argument. For example, below I take some data (named <code>data</code>) and perform a series of operations, first selecting a subset of columns, then filtering rows based on whether the values in certain columns meet specified criteria, then I create (<code>mutate</code>) a new column averaging across existing columns; and lastly, I summarize the new column down to an average value.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>data <span class="sc">|&gt;</span> </span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(column_a, column_b) <span class="sc">|&gt;</span> </span>
-<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">if_all</span>(<span class="fu">c</span>(column_a, column_b), <span class="sc">~!</span><span class="fu">is.na</span>(.))) <span class="sc">|&gt;</span> </span>
-<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">column_c =</span> <span class="fu">rowSums</span>(<span class="fu">across</span>(<span class="fu">everything</span>()))) <span class="sc">|&gt;</span> </span>
-<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean_sum =</span> <span class="fu">mean</span>(column_c))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>data <span class="sc">|&gt;</span> </span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(column_a, column_b) <span class="sc">|&gt;</span> </span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="fu">if_all</span>(<span class="fu">c</span>(column_a, column_b), <span class="sc">~!</span><span class="fu">is.na</span>(.))) <span class="sc">|&gt;</span> </span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">column_c =</span> <span class="fu">rowSums</span>(<span class="fu">across</span>(<span class="fu">everything</span>()))) <span class="sc">|&gt;</span> </span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean_sum =</span> <span class="fu">mean</span>(column_c))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>There’s a lot going on there, and the specifics will become clearer as we work though this project. But using the pipe operator this way can make for relatively readable code.</p>
 

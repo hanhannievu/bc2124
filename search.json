@@ -44,7 +44,7 @@
     "href": "index.html#course-schedule",
     "title": "Personality Psychology Lab Handbook",
     "section": "Course schedule",
-    "text": "Course schedule\n\n\n\nDate\nSession focus\nDue\n\n\n\n\nTue, 9/8\nCourse overview\n\n\n\nProject 1: \\(t\\)-test\n\n\n\n\nTue, 9/15\nProject planning\n\n\n\nTue, 9/22\nData cleaning\n\n\n\nTue, 9/29\nAnalysis\n\n\n\nTue, 10/6\nProject 1 presentations (in class)\n\n\n\nProject 2: Correlation\n\n\n\n\nTue, 10/13\nProject planning\nProject 1 report due\n\n\nTue, 10/20\nData cleaning & analysis\n\n\n\nTue, 10/27\nVisualization & reporting\n\n\n\nTue, 11/3\nNo class — Election Day, College closed\n\n\n\nTue, 11/10\nProject 2 presentations (in class)\n\n\n\nProject 3: Regression\n\n\n\n\nTue, 11/17\nProject planning\nProject 2 report due\n\n\nTue, 11/24\nData cleaning & analysis\n\n\n\nTue, 12/1\nVisualization & reporting\n\n\n\nTue, 12/8\nProject 3 presentations (in class)\n\n\n\nTue, 12/15\nNo class — reading period\nProject 3 report due",
+    "text": "Course schedule\n\n\n\nDate\nSession focus\nDue\n\n\n\n\nTue, 9/8\nCourse overview\n\n\n\nProject 1: \\(t\\)-test\n\n\n\n\nTue, 9/15\nProject planning\n\n\n\nTue, 9/22\nData preparation\n\n\n\nTue, 9/29\nAnalysis\n\n\n\nTue, 10/6\nProject 1 presentations (in class)\n\n\n\nProject 2: Correlation\n\n\n\n\nTue, 10/13\nProject planning\nProject 1 report due\n\n\nTue, 10/20\nData preparation\n\n\n\nTue, 10/27\nAnalysis\n\n\n\nTue, 11/3\nNo class — Election Day, College closed\n\n\n\nTue, 11/10\nProject 2 presentations (in class)\n\n\n\nProject 3: Regression\n\n\n\n\nTue, 11/17\nProject planning\nProject 2 report due\n\n\nTue, 11/24\nData preparation\n\n\n\nTue, 12/1\nAnalysis\n\n\n\nTue, 12/8\nProject 3 presentations (in class)\n\n\n\nTue, 12/15\nNo class — reading period\nProject 3 report due",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
     ]
@@ -62,67 +62,67 @@
   {
     "objectID": "t-test_1_zodiac.html",
     "href": "t-test_1_zodiac.html",
-    "title": "2  Project Planning",
+    "title": "2  Project planning",
     "section": "",
     "text": "Goals\nIn this session we will begin the first project of the course: investigating personality differences between two groups of people. By the end of the session you will have a plan for your project.",
     "crumbs": [
       "Project 1: $t$-test",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Project Planning</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Project planning</span>"
     ]
   },
   {
     "objectID": "t-test_1_zodiac.html#project-overview",
     "href": "t-test_1_zodiac.html#project-overview",
-    "title": "2  Project Planning",
+    "title": "2  Project planning",
     "section": "Project overview",
     "text": "Project overview\nOne way we can investigate personality is to look for differences between groups of people: does one group of people tend to score higher or lower on some particular trait than another group? With this project, you will look at whether a personality trait seems to differ (on average) between two different groups of people by analyzing an existing data set.\nSpecifically, for this project you will be comparing scores on one of the Big 5 personality traits: openness, conscientiousness, extraversion, agreeableness, or neuroticism.\n\n\n\nThe Big 5 theory of personality\n\n\nWhat groups will you compare? We’re going to look for differences between people with different astrological starsigns (Pisces, Aries, Leo, Virgo, etc…). Why starsigns? Because it’s something a little bit fun that I expect you will be at least somewhat familiar with, and you’ll be able to come up with some idea about how people with one sign might differ from people with another sign (Leos will surely be more extraverted than Pisces, right?!). To be clear: astrology is not something that contemporary academic psychologists generally take very seriously. However, it makes for a fine introduction to ways of thinking about the reliability and validity of approaches to categorizing and describing personality, as well as constructing hypotheses and analyzing data.\n\n\n\nThe twelve astrological starsigns\n\n\n\nComparing groups: the \\(t\\)-test\nThe way we compare groups like this is to statistically test the “null hypothesis” (\\(H_0\\)) using a \\(t\\)-test. \\(H_0\\) states that there is no difference between the group averages at all. Because of the inherent randomness in sample data, however, we wouldn’t expect to find precisely no difference between two groups even if that null hypothesis is correct in reality. The \\(t\\)-test quantifies exactly how much our sample averages differ in the context of the general variability in the data. This gives a measure of how much of a difference we have observed over and above what we would expect by chance alone, assuming that there really isn’t a difference. If the difference between our samples is sufficiently big, we can say that it is sufficiently unlikely under the \\(H_0\\) model of reality; we reject \\(H_0\\) and tentatively accept the “alternative hypothesis”, (\\(H_1\\)) which states that there is a difference between the groups.\nNote that this is a statistical statement about a general tendency, not a rigid law. If we reject the null hypothesis, we’re saying that there seems to be a difference in the groups averages, not that everyone in one group scores higher than everyone in the other group.\nNote also that this kind of analysis, and all the empirical findings you learn about in the personality psychology lecture (and beyond) are the product of research and statistical procedures. Researchers decide what psychological constructs they want to investigate; how to measure those constructs; what statistical analyses are appropriate; and what conclusions may be drawn. There are strengths, limitations, and trade offs involved in every decision along the way.",
     "crumbs": [
       "Project 1: $t$-test",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Project Planning</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Project planning</span>"
     ]
   },
   {
     "objectID": "t-test_1_zodiac.html#step-1.-examine-the-data",
     "href": "t-test_1_zodiac.html#step-1.-examine-the-data",
-    "title": "2  Project Planning",
+    "title": "2  Project planning",
     "section": "Step 1. Examine the data",
     "text": "Step 1. Examine the data\nThe dataset we will use is from the General Social Survey (GSS). Here’s a description from the GSS website:\n\n\n\n\n\n\nNoteGSS description\n\n\n\nThe General Social Survey (GSS) is a nationally representative survey of adults in the United States conducted since 1972. The GSS collects data on contemporary American society in order to monitor and explain trends in opinions, attitudes and behaviors. The GSS has adapted questions from earlier surveys, thereby allowing researchers to conduct comparisons for up to 80 years.\nThe GSS contains a standard core of demographic, behavioral, and attitudinal questions, plus topics of special interest. Among the topics covered are civil liberties, crime and violence, intergroup tolerance, morality, national spending priorities, psychological well-being, social mobility, and stress and traumatic events.\nAltogether, the GSS is the single best source for sociological and attitudinal trend data covering the United States. It allows researchers to examine the structure and functioning of society in general, as well as the role played by relevant subgroups and to compare the United States to other nations.\nThe GSS aims to make high-quality data easily accessible to scholars, students, policy-makers, and others, with minimal cost and waiting.\nFrom https://gss.norc.org/About-The-GSS\n\n\nSpecifically, for this project we will use data collected in 2006. The reason for using this (rather than more recent data) is that the 2006 survey included a personality scale: the Ten-Item Personality Inventory (TIPI: Gosling et al., 2003). This scale is a short measure of the “Big Five” personality traits of Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism.\nFor this project, you will pick one of these traits and see whether it differs between people of different star signs. For this kind of analysis you will have two variables.\nYour dependent variable will be one of the Big Five traits:\n\nExtraversion (big5a1 & big5a2)\nAgreeableness (big5b1 & big5b2)\nConscientiousness (big5c1 & big5c2)\nNeuroticism (big5d1 & big5d2)\nOpenness (big5e1 & big5e2)\n\nYour quasi-independent variable will be Zodiac star sign (zodiac). Specifically, you will select two groups to compare (e.g. Leo versus Virgo).\nTo see exactly how these constructs were measured and how the data is coded you will look up the variable IDs (the big5xx and zodiac codes in parentheses above) in the GSS data explorer.",
     "crumbs": [
       "Project 1: $t$-test",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Project Planning</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Project planning</span>"
     ]
   },
   {
     "objectID": "t-test_1_zodiac.html#sec-astrology-references",
     "href": "t-test_1_zodiac.html#sec-astrology-references",
-    "title": "2  Project Planning",
+    "title": "2  Project planning",
     "section": "Step 2. Read relevant research",
     "text": "Step 2. Read relevant research\nReal research doesn’t happen in a vacuum; research plans and expectations should be informed by what has come before. Therefore once you have a general idea for your study, you will see what other researchers have found and refine your plans and expectations based on what you learn.\nA real research project would involve an exhaustive literature review, in which you attempt to find and understand all the research relevant to your question. Since this project of ours is just for practice and our time is limited, you don’t need to read everything. For now, pick one of these papers to skim to give you an idea of what has been found.\n\nReferences\n\nClarke, D., Gabriels, T., & Barnes, J. (1996). Astrological signs as determinants of extroversion and emotionality: An empirical study. The Journal of Psychology, 130(2), 131–140. https://doi.org/10.1080/00223980.1996.9914995\nMayo, J., White, O., & Eyesenck, H. J. (1978). An empirical study of the relation between astrological factors and personality. Journal of Social Psychology, 105(2), 229. https://doi.org/10.1080/00224545.1978.9924119\nMcGrew, J. H., & McFall, R. M. (1990). A scientific inquiry into the validity of astrology. Journal of Scientific Exploration, 4(1), 75-83.\nSaklofske, D. H., Kelly, I. W., & McKerracher, D. W. (1982). An empirical study of personality and astrological factors. Journal of Psychology, 110(2), 275. https://doi.org/10.1080/00223980.1982.9915349\nSmithers, A. G., & Cooper, H. J. (1978). Personality and season of birth. The Journal of Social Psychology, 105(2), 237-241. https://doi.org/10.1080/00224545.1978.9924120",
     "crumbs": [
       "Project 1: $t$-test",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Project Planning</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Project planning</span>"
     ]
   },
   {
     "objectID": "t-test_1_zodiac.html#step-3.-articulate-your-hypothesis",
     "href": "t-test_1_zodiac.html#step-3.-articulate-your-hypothesis",
-    "title": "2  Project Planning",
+    "title": "2  Project planning",
     "section": "Step 3. Articulate your hypothesis",
     "text": "Step 3. Articulate your hypothesis\nBy this point you should be able to state your:\n\nOperational definitions (that is, the specific questions that participants were asked and how they could answer, per the codebook)\nThe constructs that those operational definitions measure (i.e. what exactly is extraversion, as a broad psychological concept that the relevant questions participants were asked somehow tap into)\nYour hypothesis\n\nYour hypothesis is a formal statement of your expectation about the outcome of your statistical test. For this project the main question that your hypothesis addresses is: do you think there will be a difference between the two groups you are comparing? That is, will you find a difference between group averages big enough that it doesn’t just seem to be attributable to chance variation in the data?\nIf you do expect a difference, you should also specify which group you expect to score higher/lower, and how substantial you expect it to be (i.e. a weak, moderate, or strong effect size; see Appendix).",
     "crumbs": [
       "Project 1: $t$-test",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Project Planning</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Project planning</span>"
     ]
   },
   {
     "objectID": "t-test_1_zodiac.html#to-do-for-next-time",
     "href": "t-test_1_zodiac.html#to-do-for-next-time",
-    "title": "2  Project Planning",
+    "title": "2  Project planning",
     "section": "To do for next time",
     "text": "To do for next time\nRead up on the development of the TIPI (Gosling et al., 2003). The more detailed your understanding of how the Big Five trait was measured, the better you will be able to interpret the results of your analysis.",
     "crumbs": [
       "Project 1: $t$-test",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Project Planning</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Project planning</span>"
     ]
   },
   {
@@ -260,56 +260,56 @@
   {
     "objectID": "correlation_1_anes.html",
     "href": "correlation_1_anes.html",
-    "title": "6  Project Planning",
+    "title": "6  Project planning",
     "section": "",
     "text": "Goals\nIn this session we will begin the next project of the course: performing a correlational analysis using the ANES 2016 dataset. By the end of the session you will have a plan for your analysis.",
     "crumbs": [
       "Project 2: Correlation",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Project Planning</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Project planning</span>"
     ]
   },
   {
     "objectID": "correlation_1_anes.html#project-overview",
     "href": "correlation_1_anes.html#project-overview",
-    "title": "6  Project Planning",
+    "title": "6  Project planning",
     "section": "Project overview",
     "text": "Project overview\nA correlation refers an association between two things. It is a statement of a statistical relationship–a general tendency, rather than a rigid law. To say that some aspect of personality is correlated with something else–for example, neuroticism is correlated with lower wellbeing or openness is correlated with greater cognitive ability–is to say that those things tend to go together. Not everyone who scores high on neuroticism will have lower wellbeing than anyone low on neuroticism, but there is some tendency for the two to go together on the whole.\nOf course, these kind of correlations aren’t just facts found lying around in nature; they are empirical findings produced by researchers. All the findings you learn about in the personality psychology lecture (and beyond) are the product of research procedures. Researchers decide what psychological constructs they want to investigate; how to measure those constructs; what statistical analyses are appropriate; and what conclusions may be drawn. There are strengths, limitations, and trade offs involved in every decision along the way.\nWith this project, you will examine a correlation between a personality trait and another construct of your choosing by analyzing existing data.\n\nStep 1. Examine the data\nThe dataset we will use is from the American National Election Studies (ANES), academic surveys of voters in the United States conducted before and after every presidential election, going back to the 1940s. Specifically, for this project we will use data collected around the 2016 election. The reason for using this (rather than more recent data) is that the 2016 survey included a personality scale: the Ten-Item Personality Inventory (TIPI: Gosling et al., 2003). This scale is a short measure of the “Big Five” personality traits of Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism.\nFor this project, you will pick one of these traits and investigate its correlation with another question from the survey. The full dataset contains almost 2,000 questions in total. Since this is your first project, however, I am going to constrain your choice. For this kind of correlation analysis you will have two variables. You can think of one as the “predictor” and the other as the “outcome”; you want to see if the predictor has any association with the outcome.\nYour predictor variable will be one of the Big Five traits:\n\nExtraversion (V162333 & V162338)\nAgreeableness (V162334 & V162339)\nConscientiousness (V162335 & V162340)\nNeuroticism (V162336 & V162341)\nOpenness (V162337 & V162342)\n\nYour outcome variable will be one of the following “feeling thermometer” questions, referring to the two main presidential candidates, political parties, or liberals/conservatives in general:\n\nDemocratic presidential candidate (V162078) OR Republican presidential candidate (V162079)\nDemocratic party (V161095) OR Republican party (V161096)\nLiberals (V162097) OR Conservatives (V162101)\n\nTo see exactly how these constructs were measured you will look up the variable IDs (the V16… codes in parentheses above) in the Codebook.\n\n\nStep 2. Read relevant research\nReal research doesn’t happen in a vacuum; research plans and expectations should be informed by what has come before. Therefore once you know which variables you will analyze, you will see what other researchers have found about these (or related) personality traits.\nA real research project would involve an exhaustive literature review, in which you attempt to find and understand all the research relevant to your question. Since this project of ours is just for practice and our time is limited, you don’t need to read everything; pick one of these papers to skim to give you an idea of what has been found.",
     "crumbs": [
       "Project 2: Correlation",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Project Planning</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Project planning</span>"
     ]
   },
   {
     "objectID": "correlation_1_anes.html#sec-politics-references",
     "href": "correlation_1_anes.html#sec-politics-references",
-    "title": "6  Project Planning",
+    "title": "6  Project planning",
     "section": "References",
     "text": "References\n\nAidt, T., & Rauh, C. (2018). The Big Five personality traits and partisanship in England. Electoral Studies, 54, 1-21. https://doi.org/10.1016/j.electstud.2018.04.017\nGerber, A. S., Huber, G. A., Doherty, D., & Dowling, C. M. (2011). The big five personality traits in the political arena. Annual Review of Political Science, 14, 265-287.\nCooper, C. A., Golden, L., & Socha, A. (2013). The big five personality factors and mass politics. Journal of Applied Social Psychology, 43(1), 68-82.\n\n\nStep 3. Articulate your hypothesis\nBy this point you should be able to state your:\n\nOperational definitions (that is, the specific questions that participants were asked and how they could answer, per the codebook)\nThe constructs that those operational definitions measure (i.e. does the question measure perceived political preferences in general? Or some more specific form of affiliation/alignment?)\nYour hypothesis\n\nYour hypothesis is a formal statement of your expectation about how your constructs are (or aren’t) associated, and it will be tested quantitatively by calculating a correlation statistic.\nThe main question that your hypothesis addresses is: do you think the two variables will be significantly correlated? That is, will you find an association consistent enough that it doesn’t just seem to be attributable to chance variation in the data?1\nIf you do expect a significant correlation, you should also specify whether you expect it to be positive or negative, and how strong you expect it to be (i.e. weak, moderate, strong; see Appendix B).",
     "crumbs": [
       "Project 2: Correlation",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Project Planning</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Project planning</span>"
     ]
   },
   {
     "objectID": "correlation_1_anes.html#to-do-for-next-time",
     "href": "correlation_1_anes.html#to-do-for-next-time",
-    "title": "6  Project Planning",
+    "title": "6  Project planning",
     "section": "To do for next time",
     "text": "To do for next time\nRead another of the papers listed above.",
     "crumbs": [
       "Project 2: Correlation",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Project Planning</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Project planning</span>"
     ]
   },
   {
     "objectID": "correlation_1_anes.html#footnotes",
     "href": "correlation_1_anes.html#footnotes",
-    "title": "6  Project Planning",
+    "title": "6  Project planning",
     "section": "",
     "text": "Even random data will produce spurious correlations by chance some of the time; see spuriouscorrelations.com↩︎",
     "crumbs": [
       "Project 2: Correlation",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Project Planning</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Project planning</span>"
     ]
   },
   {
@@ -592,7 +592,7 @@
     "href": "appendix-r-basics.html",
     "title": "Appendix A — Getting started with R",
     "section": "",
-    "text": "posit.cloud\nYou will use posit.cloud to write R code and work with data in RStudio. To use it you’ll just need to sign up for a free account.",
+    "text": "posit.cloud\nYou will use posit.cloud to write R code and work with data in RStudio, right in your web browser. There is nothing to install on your own computer.\nSetting up takes about five minutes, and you only need to do it once.",
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>A</span>  <span class='chapter-title'>Getting started with R</span>"
@@ -603,7 +603,7 @@
     "href": "appendix-r-basics.html#posit.cloud",
     "title": "Appendix A — Getting started with R",
     "section": "",
-    "text": "Let’s do something cool\nOnce you have a posit.cloud account, click this link.\nOnce the project is up and running, click on anes.R in the bottom-right pane to open some analysis code.\n\n\nWait, what are you talking about?\nThere are a few different names involved here, so to try and clear things up:\n\nR is a coding language\nRStudio is a software interface for using R\nPosit is the name of the company that makes RStudio\nposit.cloud provides a way of using RStudio in your web browser\n\nYou can install R and RStudio on your own computer for free and do things that way, but using the cloud-based RStudio via posit.cloud simplifies things immensely.",
+    "text": "Step 1: Create a free account\nGo to posit.cloud and sign up. The free plan is all you need for this course.\n\n\nStep 2: Open the course project\nOnce you are logged in, click here to open the BC2124 lab project.\nThis project already has everything you need: the R packages we use, and the datasets for all three projects. You will not need to install anything or download any data.\n\n\nStep 3: Make your own copy\nAt the top of the project you will see a button labelled Make a Permanent Copy. Click it.\nThis creates your own private copy of the project in your account. Everything is copied across, so your version starts out identical to mine.\n\n\n\n\n\n\nImportantBookmark your copy\n\n\n\nAfter you make your copy, bookmark it or find it under “Your Content” in posit.cloud.\nFrom now on, always return to your copy — not the link above. The link above always opens my original, which you cannot edit. If you click it again next week and start working, your previous work will not be there, and you may end up with several empty copies.\n\n\n\n\nStep 4: Check that it worked\nOpen your copy. In the Console pane (bottom left, showing a &gt; prompt), type the following and press Enter:\nlibrary(tidyverse)\nYou should see a short message listing packages like dplyr and ggplot2. If instead you see an error saying there is no package called ‘tidyverse’, let me know.\nThen check that the data is there:\nlist.files(\"data\")\nYou should see the data files listed.\n\n\nWait, what are you talking about?\nThere are a few different names involved here, so to try and clear things up:\n\nR is a coding language\nRStudio is a software interface for using R\nPosit is the name of the company that makes RStudio\nposit.cloud provides a way of using RStudio in your web browser\n\nYou can install R and RStudio on your own computer for free and do things that way, but using the cloud-based RStudio via posit.cloud simplifies things immensely.",
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>A</span>  <span class='chapter-title'>Getting started with R</span>"
