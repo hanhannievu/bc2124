@@ -192,7 +192,7 @@ impacting your ability to complete the course to the best of your ability.
 Though it isn't always easy, it is better to proactively seek help than to let
 problems build up.
 
-### Late submission policy
+### Late submission policy {#sec-late-policy}
 
 Written project reports are due one week following the in-class presentation. A
 grade penalty of 5 points will be applied for each day (or part thereof) that
