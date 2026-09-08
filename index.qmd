@@ -1,3 +1,5 @@
+# Preface {.unnumbered}
+
 ---
 title: Syllabus
 number-sections: false
