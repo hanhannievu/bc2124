@@ -132,9 +132,8 @@ Final grades are determined according to the following boundaries:
 
 | Date | Session focus | Due |
 |------|---------------|-----|
-| Tue, 9/8 | Course overview | |
 | ***Project 1: $t$-test***|  | |
-| Tue, 9/15 | Project planning | |
+| Tue, 9/15 | Course overview & project planning | |
 | Tue, 9/22 | Data preparation | |
 | Tue, 9/29 | Analysis | |
 | Tue, 10/6 | **Project 1 presentations** (in class) | |
